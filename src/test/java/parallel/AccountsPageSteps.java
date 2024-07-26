@@ -42,7 +42,7 @@ public class AccountsPageSteps {
 
 		List<String> expAccountSectionsList = sectionsTable.asList();
 		
-		System.out.println("Expected accounts section list: " + expAccountSectionsList);
+		System.out.println("Expected accounts section list:   " + expAccountSectionsList);
 
 		List<String> actualAccountSectionsList = accountsPage.getAccountsSectionsList();
 		System.out.println("Actual accounts section list: " + actualAccountSectionsList);
